@@ -1,16 +1,19 @@
-import React from 'react';
-import './App.css';
-import Footer from './components/Footer';
-import Header from  './components/Header'
+import React from "react";
+import "./App.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import HomeScreen from "./screens/HomeScreen";
 
 const App = () => {
   return (
     <>
       <Header />
-        <h1>Bem-Vindo as Lojas Mern</h1>
+      <main>
+        <HomeScreen />
+      </main>
       <Footer />
     </>
   );
-}
+};
 
 export default App;
